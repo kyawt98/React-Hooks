@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import UseStateTuto from './useState/UseStateTuto';
+import UseReducerTuto from './useReducer/UseReducerTuto';
+import UseEffectTuto from './useEffect/UseEffectTuto';
+import UseRefTuto from './useRef/useRefTuto';
+import UseLayoutEffectTuto from './useLayoutEffect/UseLayoutEffectTuto';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1> #####React Hooks##### </h1>
+      <h2>** useState Tutorial</h2>
+      <UseStateTuto />
+      <h2>** useReducer Tutorial</h2>
+      <UseReducerTuto />
+      <h2>** useEffect Tutorial</h2>
+      <UseEffectTuto />
+      <h2>** useRef Tutorial</h2>
+      <UseRefTuto />
+      <h2>** useLayoutEffect Tutorial</h2>
+      <UseLayoutEffectTuto />
     </div>
   );
 }
